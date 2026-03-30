@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int search(vector<int> items, int index, int k, int size){
+int search(const vector<int>& items, int index, int k, int size){
     if (index > size - 1){
         return -1;
     }

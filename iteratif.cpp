@@ -10,7 +10,7 @@ int main(){
 
     for(int j = 0; j < n; j++){
         if (items[j] == k){
-            cout << "Angka ditemukan di index: " << items[j];
+            cout << "Angka ditemukan di index: " << j;
             return 1;
         }
     }
