@@ -4,19 +4,9 @@
 using namespace std;
 
 int main(){
-    int n;
-    cout << "Masukkan ukuran array: ";
-    cin >> n;
-
-    vector<int> items(n);
-    for(int i = 0; i < n; i++){
-        cin >> items[i];
-    }
-
-    int k;
-    cout << "Masukkan angka yang dicari: ";
-    cin >> k;
-
+    vector<int> items = {4, 12, 3 , 32, 1};
+    int k = 1;
+    int n = items.size();
 
     for(int j = 0; j < n; j++){
         if (items[j] == k){
